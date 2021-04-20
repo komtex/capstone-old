@@ -1,0 +1,125 @@
+
+nav {
+  margin-bottom: 1.0rem;
+}
+nav {
+  position: relative;
+  margin: 2px;
+  top: 1rem;
+  background: #ebd4d4;
+  padding: .5rem;
+}
+nav a:hover {
+  color:#5c9f7f;
+}
+
+nav a {
+  color: #e6dddd;
+  padding: 0.5em;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  border-right: 2px solid rgba(32, 133, 7, 0.4);
+}
+.mr-auto {
+  font-size: 150%;
+  font-weight: 500;
+}
+.ki {
+  font-size: 200%;
+  font-weight: 600;
+  font-family: 'Lobster';
+  color: #c25100;
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: none;
+  }
+}
+.cover {
+  object-fit: cover;
+}
+.cover {
+  color: #54b7e6;
+  margin-left: 0.5rem;
+  -webkit-box-shadow: 5px 10px 10px 10px #d5ded6;
+  box-shadow: 5px 10px 10px 10px #bac1bb;
+}
+.custom-nav {
+  border: 0px;
+  padding: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+h2, legend {
+  font-family: Times New Roman, serif;
+  font-weight: 400;
+  color: #336699;
+  text-shadow: 2px 1px 0 #c1c1c1;
+}
+html {
+  height: 100%;
+}
+.but {
+  float: left;
+  position: relative;
+  bottom: -65px;
+  left: 10%;
+  transform: translateX(-50%) rotate(-10deg);
+  color: #e55643;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: visible;
+  cursor: pointer;
+}
+.but span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+}
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+.title {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+
+.title:nth-child(1) {
+  color: #e55643;
+}
+.title:nth-child(2) {
+  color: #2b9f5e;.title:nth-child(3) {
+  color: #f1c83c;
+}
+
+.icon-cross:before span {
+  content: "\ea0f";
+}
+.icon-checkmark:before span {
+  content: "\ea10";
+}
